@@ -6,6 +6,7 @@ edition = "2024"
 [dependencies]
 axum = "0.8.3"
 chrono = "0.4.40"
+clap = { version = "4.5.37", features = ["env", "derive"] }
 fasteval = "0.2.4"
 rmcp = { version = "0.1.5", features = ["transport-sse-server", "transport-io"] }
 serde = { version = "1.0.219", features = ["derive"] }
